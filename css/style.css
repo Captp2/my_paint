@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+html{
+    min-height:100%;
+    position:relative;
+}
+
+body{
+	background-color: #eeeeee;
+	font-family: Raleway;
+}
+
+#checkbox-container{
+	position: absolute;
+	background-color: green;
+	width: 900px;
+	top: 70px;
+}
+
+#checkbox-container input{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#layers-display-container{
+	width: 1000px;
+	height: 90px;
+	background-color: #677179;
+	float: left;
+	padding: 5px;
+}
+
+#layers-display-container button{
+	height: 50px;
+	float: right;
+	margin-top: 5px;
+}
+
+.layer-display{
+	float: left;
+	border: 1px solid grey;
+	margin: 5px;
+}
+
+.layer-selected{
+	border: 3px solid grey;
+}
+
+#palette{
+	width: 50px;
+	height: 20px;
+	background-color: #df4b26;
+	margin-right: 90px;
+	margin-top: 10px;
+}
+
+#header{
+	height: 100px;
+	background-color: #798081;
+	width: 100%;
+}
+
+#header h1{
+	width: 200px;
+	float: left;
+}
+
+#toolbar{
+	width: 100px;
+	height: 88vh;
+	background-color: #D2CAEC;
+	text-align: center;
+}
+
+#toolbar input{
+	width: 80px;
+	/*margin: 0;*/
+}
+
+.tool-display{
+	padding-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 30px;
+}
+
+#color-picker{
+	float: right;
+}
+
+#color-picker li{
+	float: right;
+}
+
+.hsl-picker{
+	width: 40px;
+}
+
+#main-canvas{
+	float: right;
+	/*background-image: url('../images/canvas-background.png');*/
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	cursor: crosshair;
+}
+
+#canvas-vertical{
+	z-index: -1;
+	float: right;
+	background-image: url('../images/canvas-background.png');
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	cursor: crosshair;
+}
+
+.selected{
+	border: 2px solid blue;
+	border-radius: 2px;
+}
+
+#color-canvas{
+	float: right;
+}
+
+.checkbox{
+	width: 15px !important;
+}
+
+#square-fill, #round-fill{
+	margin-left: 30px;
+}
+
+.fill{
+	clear: both;
+}
+
+.layer{
+	float: right;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	cursor: crosshair;
+}
+
+.no-display{
+	display: none !important;
+}
